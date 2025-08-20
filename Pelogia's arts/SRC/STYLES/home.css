@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: linear-gradient(135deg, #ecae6680, #eba3a3);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+
+}
+nav ul li button {
+    background-color: #f8d99563;
+    color: thistle;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Apple Chancery', cursive;
+}
+nav ul li button:hover {
+    background-color: #f7e097;
+    color: #1a0d0d;
+    animation: pulse 1s infinite;
+}
+
+a{
+    text-decoration: none;
+    color: #1a0d0d;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#LogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+#TextoCabecalho {
+    color: #1a0d0d;
+
+}
+#LogoContainer img {
+    border-radius: 50%;
+    background-color: #eba3a3;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    background: linear-gradient( #eba3a3, #ecae668e),
+                url('../../ASSETS/Trupe-Uaah-Foto-site_-9.webp');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#TextoPrincipal {
+    color: #1a0d0d;
+    text-align: center;
+    background-color: #ecabf14f;
+    height: 40px;
+    padding: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ecae668e, #eba3a3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container button {
+    color: #1a0d0d;
+    text-align: center;
+    background-color: #ecabf14f;
+    height: 20px;
+    padding: 15px;
+    margin-top: 40px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.description1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 300px;
+}
+.description1 img {
+    width: 1000px;
+    height: 300px;
+}
